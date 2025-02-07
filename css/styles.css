@@ -533,7 +533,9 @@ a {
 .team {
   background-color: #f4f4fd;
 }
-
+.team .container {
+  padding: 0 28px;
+}
 .team-two {
   font-weight: 700;
   font-size: 36px;
@@ -607,6 +609,7 @@ a {
 @media screen and (min-width: 768px) {
   .team .container {
     max-width: 600px;
+    padding: 0 16px;
   }
   .team-list {
     flex-direction: row;
@@ -622,6 +625,7 @@ a {
 @media screen and (min-width: 1158px) {
   .team .container {
     max-width: 1158px;
+    padding: 0 15px;
   }
   .team-item {
     width: calc((100% - 72px) / 4);
