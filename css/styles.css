@@ -778,6 +778,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
 
   margin-bottom: 72px;
 }
@@ -788,6 +789,7 @@ a {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-social-list {
